@@ -42,10 +42,10 @@
                   <li><a>Contact Us ></a></li>
                 </ul>
               </div>
-              <a class="text-3xl font-bold">
-              <span class="mr-1"><img class="inline w-10" src="images/business.png" alt=""></span>
-                Justice
-              </a>
+             <div class="flex items-center justify-center gap-2">             
+             <span class="text-3xl font-bold"> Justice</span>
+             <img src="images/logo.png" alt="">
+             </div>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-base">
@@ -186,13 +186,13 @@
             </div>
           </section>
 
-          <!-- section code -->
+          <!--Frequently Asked section code -->
           <section class="mb-24">
             <div class="text-center mb-12">
               <h4 class="text-3xl font-bold">Frequently Asked Any Questions</h4>
               <p class="w-1/2 mt-3 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
           </div>
-               <div class="grid gap-8 grid-cols-1 lg:grid-cols-2 border-2">
+               <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
               <div class="space-y-16">
                 <div class="collapse collapse-plus bg-base-200">
                   <input type="radio" name="my-accordion-3" checked="checked" />
@@ -292,8 +292,46 @@
       </main>
 
       <!-- footer section code -->
-       <footer>
-
+       <footer class="bg-black">
+       <div class="container mx-auto text-white">
+        <div class="footer p-10">
+          <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+          <form>
+            <h6 class="footer-title">Newsletter</h6>
+            <fieldset class="form-control w-80">
+              <label class="label">
+                <span class="label-text">Enter your email address</span>
+              </label>
+              <div class="join">
+                <input
+                  type="text"
+                  placeholder="username@site.com"
+                  class="input input-bordered join-item" />
+                <button class="btn btn-primary join-item">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+       </div>
        </footer>
 </body>
 </html>
